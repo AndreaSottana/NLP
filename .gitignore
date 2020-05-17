@@ -3,8 +3,14 @@ temp/
 2_Seq2Seq/.vector_cache/
 2_Seq2Seq/.data/
 2_Seq2Seq/.ipynb_checkpoints/
+<<<<<<< HEAD
 1_WordRepresentatiosn/gutenberg
 2_Seq2Seq/.DS_Store
 .DS_Store
 3_Attention/runs
 
+=======
+1_WordRepresentations/gutenberg
+4_TransformerAndBert/transformer_model.pt
+4_TransformerAndBert/.data
+>>>>>>> upstream/master

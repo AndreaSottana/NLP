@@ -540,6 +540,10 @@ if __name__ == "__main__":
         transformer = Transformer(len(SRC.vocab), len(TRG.vocab)).to(device)
         train(transformer, SRC, TRG, MODEL_PATH)
     else:
+<<<<<<< HEAD
         transformer = torch.load(MODEL_PATH)  # , map_location=device)
+=======
+        transformer = torch.load(MODEL_PATH, map_location=device)
+>>>>>>> upstream/master
         inference(transformer, "Eine Frau mit blonden Haaren trinkt aus einem Glas")
         print(evaluate_bleu(transformer, test_iter))
